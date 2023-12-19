@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "retro";
-    src: url("author/hard-font.ttf");
+    src: url("hard-font.ttf");
 }
 body {
     background-color:rgb(216, 216, 216);
