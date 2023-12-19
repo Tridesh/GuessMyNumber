@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "hard-font";
+    src: url("hard-font.ttf");
+}
+@font-face {
+    font-family: "light-font";
+    src: url("light-font.ttf");
+}
+body {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: "light-font";
+}
+.hello{
+    font-size: 40px;
+    padding-left: 45px;
+}
+.emoji {
+    font-size: 40px;
+}
+.name {
+    color: blue;
+    font-family: "hard-font";
+    font-size: 60px;
+}
+.doings {
+    font-size: 18px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.next {
+    padding-top: 100px;
+    padding-left: 30px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+.linkedin {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+.insta {
+    position: absolute;
+    top: 85%;
+    left: 60%;
+}

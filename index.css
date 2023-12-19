@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "game-style";
+    src: url("mexcellent 3d.otf");
+}
+@font-face {
+    font-family: "retro";
+    src: url("author/hard-font.ttf");
+}
+body {
+    background-color:rgb(216, 216, 216);
+    background-image: url("back_img.png");
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+.decor {
+    height: 2%;
+    width: 100%;
+    background-color: rgb(215, 179, 179);
+    position: absolute;
+    top: 48%;
+    z-index: -1;
+}
+h1 {
+    font-family: game-style;
+    font-size: calc(40px + 0.390625vw);
+    color: rgb(60, 31, 31);
+    position: absolute;
+    text-align: center;
+}
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(215, 179, 179);
+    top: 40%;
+    right: 50%;
+    font-family: "game-style";
+    color: rgb(63, 22, 22);
+    font-size: large;
+    text-align: center;
+    font-size: 70px;
+}
+.text {
+    position: absolute;
+    top: 57%;
+    color: rgb(60, 31, 31);
+    font-size: calc(20px + 0.390625vw);
+    font-family: "game-style";
+    font-weight: bold;
+}
+.wait {
+    position: absolute;
+    top: 69%;
+    left: 32%;
+    color: rgb(60, 31, 31);
+    font-size: calc(20px + 0.390625vw);
+    font-family: "game-style";
+    font-weight: bold;
+}
+.answer {
+    position: absolute;
+    top: 63%;
+    left: 15%;
+    width: 80px;
+    height: 110px;
+    border-radius: 30px;
+    border-color: rgb(215, 179, 179);
+    border-width: 10px;
+    font-size: 50px;
+    font-family: "game-style";
+    background-color: rgb(209, 136, 105);
+}
+.check-it {
+    position: absolute;
+    right: 30%;
+    top: 65%;
+    width: 140px;
+    height: 45px;
+    font-size: 30px;
+    font-family: "game-style";
+    background-color: rgb(215, 179, 179);
+    border-radius: 10px;
+}
+.restart {
+    position: absolute;
+    right: 30%;
+    top: 75%;
+    width: 140px;
+    height: 45px;
+    font-size: 30px;
+    font-family: "game-style";
+    background-color: rgb(215, 179, 179);
+    border-radius: 10px;
+}
+.common {
+    position: absolute;
+    left: 80%;
+    top: 5%;
+    font-size: 30px;
+    font-family: "game-style";
+    color: rgb(60, 31, 31);
+    font-weight: bold;
+}  
+#score {
+    top: 25%;
+    color: rgb(25, 0, 255);
+}
+@media screen and (min-width: 0px) and (max-width: 435px) {
+    h1 {
+        font-size: 20px;
+        padding-left: 30px;
+    } 
+    #high-score {
+        font-size: 15px;
+    }  
+    .box {
+        width: 50px;
+        border-radius: 5px;
+        left: 45%;
+        height: 50px;
+        font-size: 40px;
+    } 
+    .decor {
+        top: 43.8%;
+    }
+    .answer {
+        width: 56px;
+        height: 70px;
+        left: 10%;
+        border-radius: 15px;
+        font-size: 40px;
+    }
+    .check-it {
+        font-size: 20px;
+        width: 112px;
+        height: 36px;
+        left: 65%;
+    }
+    .restart {
+        font-size: 20px;
+        width: 112px;
+        height: 36px;
+        left: 65%;
+    }
+    .wait {
+        font-size: 16px;
+        left: 37%;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .number {
+        color: rgb(255, 255, 0);
+    }
+    a {
+        font-size: 13px;
+        position: absolute;
+        right: 0%;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-family: "game-style";
+    }
+    #score {
+        position: absolute;
+        top: 15%;
+        font-size: 20px;
+    }
+    input {
+        text-align: center;
+    }
+    .score-number {
+        color: brown;
+        font: 50px;
+    }
+    .instruct {
+        color: rgb(79, 20, 20);
+        position: absolute;
+        top: 15%;
+        font-family: "retro";
+        font-weight: bold;
+        padding-left: 10px;
+    }
+}
+.score-card {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    font-size: 20px;
+    font-family: "game-style";
+    color: rgb(60, 31, 31);
+    font-weight: bold;
+}
+.score-number {
+    color: crimson;
+}
+.score-number {
+    color: brown;
+    font-size: 50px;
+}
+.number {
+    color: rgb(55, 0, 255);
+}
