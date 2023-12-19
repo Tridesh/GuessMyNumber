@@ -23,7 +23,7 @@ body {
     z-index: -1;
 }
 h1 {
-    font-family: game-style;
+    font-family: "retro";
     font-size: calc(40px + 0.390625vw);
     color: rgb(60, 31, 31);
     position: absolute;
@@ -36,7 +36,7 @@ h1 {
     background-color: rgb(215, 179, 179);
     top: 40%;
     right: 50%;
-    font-family: "game-style";
+    font-family: "retro";
     color: rgb(63, 22, 22);
     font-size: large;
     text-align: center;
@@ -47,7 +47,7 @@ h1 {
     top: 57%;
     color: rgb(60, 31, 31);
     font-size: calc(20px + 0.390625vw);
-    font-family: "game-style";
+    font-family: "retro";
     font-weight: bold;
 }
 .wait {
@@ -56,7 +56,7 @@ h1 {
     left: 32%;
     color: rgb(60, 31, 31);
     font-size: calc(20px + 0.390625vw);
-    font-family: "game-style";
+    font-family: "retro";
     font-weight: bold;
 }
 .answer {
@@ -69,7 +69,7 @@ h1 {
     border-color: rgb(215, 179, 179);
     border-width: 10px;
     font-size: 50px;
-    font-family: "game-style";
+    font-family: "retro";
     background-color: rgb(209, 136, 105);
 }
 .check-it {
@@ -79,7 +79,7 @@ h1 {
     width: 140px;
     height: 45px;
     font-size: 30px;
-    font-family: "game-style";
+    font-family: "retro";
     background-color: rgb(215, 179, 179);
     border-radius: 10px;
 }
@@ -90,7 +90,7 @@ h1 {
     width: 140px;
     height: 45px;
     font-size: 30px;
-    font-family: "game-style";
+    font-family: "retro";
     background-color: rgb(215, 179, 179);
     border-radius: 10px;
 }
@@ -99,7 +99,7 @@ h1 {
     left: 80%;
     top: 5%;
     font-size: 30px;
-    font-family: "game-style";
+    font-family: "retro";
     color: rgb(60, 31, 31);
     font-weight: bold;
 }  
@@ -160,7 +160,7 @@ h1 {
         right: 0%;
         color: rgb(0, 0, 0);
         text-decoration: none;
-        font-family: "game-style";
+        font-family: "retro";
     }
     #score {
         position: absolute;
@@ -233,10 +233,10 @@ h1 {
     a {
         font-size: 13px;
         position: absolute;
-        right: 0%;
+        right: 5%;
         color: rgb(0, 0, 0);
         text-decoration: none;
-        font-family: "game-style";
+        font-family: "retro";
     }
     #score {
         position: absolute;
@@ -264,7 +264,7 @@ h1 {
     bottom: 5%;
     left: 10%;
     font-size: 20px;
-    font-family: "game-style";
+    font-family: "retro";
     color: rgb(60, 31, 31);
     font-weight: bold;
 }
